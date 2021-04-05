@@ -26,7 +26,7 @@ Fig 2. Monthly cost per 4 MiB memory
 
 
 
-Although current M5A service ranked at 8th in CPU and 16th in Memory, I found M6G service is cheaper than M5A for both CPU and memory in use for general purpose which has \$28.644 for both 1 vCPU and 4 MiB memory. For direct comparison between M5A and M6G, I extracted all instance from the both services (**Fig 3**).
+Although current M5A service ranked at 8th in CPU and 16th in Memory, I found M6G service is cheaper than M5A for both CPU and memory in use for general purpose which has \$28.644 for both 1 vCPU and 4 MiB memory. For direct comparison between M5A and M6G, I compared all instance from the both services (**Fig 3**). The fact maximum capacity of M5A service is larger and the M6G have smaller instance means that the M5A and M6G services are targeting slightly differ. 
 
 ![](figs/Fig3.png)
 
