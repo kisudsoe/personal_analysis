@@ -1,4 +1,4 @@
-# Let's talk about cost of AWS EC2
+# Let's talk about what is cost-effective service in AWS EC2
 
 Written by Seungsoo Kim
 
