@@ -16,11 +16,11 @@ There are 352 instance APIs by in various options of CPUs, Memories, and GPUs in
 
 To identify efficiency of the current M5A service, I calculated monthly cost (24 hrs x 31 days) based on their "Linux On Demand cost". To normalize the cost of services, I calculated the cost for a vCPUs and 4 GiB memory of instances. For example, for M5A service, \$31.002 for 1 vCPU and \$31.992 for 4 MiB memory. Top 20 cheap services for CPU and Memory are displayed at Fig 1 and 2, respectively.
 
-![](figs/Fig 1.png)
+![](figs/Fig1.png)
 
 Fig 1.
 
-![](figs/Fig 2.png)
+![](figs/Fig2.png)
 
 Fig 2.
 
@@ -28,7 +28,7 @@ Fig 2.
 
 I found M6G is cheaper than M5A for both CPU and memory which has \$28.644 for both 1 vCPU and 4 MiB memory. For direct comparison between M5A and M6G, I extracted instances from both services and displayed at Fig 3.
 
-![](figs/Fig 3.png)
+![](figs/Fig3.png)
 
 Fig 3.
 
@@ -36,7 +36,7 @@ Fig 3.
 
 As the result, every instances of M6G are >10% (\$3.35) cheaper than those of M5A service. For more details please see [Amazon webpage](https://aws.amazon.com/ec2/instance-types/m6/?nc1=h_ls). Additionally, direct comparison among the instances having 64 vCPUs and 256 MiB also shows M6G is the most cost-effective service (Fig 4).
 
-![](figs/Fig 4.png)
+![](figs/Fig4.png)
 
 Fig 4.
 
@@ -46,11 +46,11 @@ Fig 4.
 
 Apache Spark is the popular service to support cloud computing. I assumed that I can use the Apache Spark for work instead of HPC. Then I calculated how much I can save for the monthly expected cost. For comparison, I set the criteria as the cost of the m5a.24xlarge HPC which serves 96 vCPUs and 384 GiB memory. The monthly expected costs of instances are calculated from the multiplication of constant number for equal or over the criteria CPU and memory capacities (Fig 5 and 6).
 
-![](figs/Fig 5.png)
+![](figs/Fig5.png)
 
 Fig 5.
 
-![](figs/Fig 6.png)
+![](figs/Fig6.png)
 
 Fig 6.
 
