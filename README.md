@@ -34,7 +34,7 @@ Fig 3. Monthly expected cost for 96 vCPUs
 
 
 
-As the result, every instances of M6G are >10% (\$3.35) cheaper than those of M5A service (See details at [Amazon M6G](https://aws.amazon.com/ec2/instance-types/m6/?nc1=h_ls)). Additionally, direct comparison among the instances having 64 vCPUs and 256 MiB also shows M6G is the most cost-effective service (**Fig 4**).
+As the result, every instances of M6G are around 10% (-\$3.35) cheaper than those of M5A service (See details at [Amazon M6G](https://aws.amazon.com/ec2/instance-types/m6/?nc1=h_ls)). Additionally, direct comparison among the instances having 64 vCPUs and 256 MiB also shows M6G is the most cost-effective service (**Fig 4**).
 
 ![](figs/Fig4.png)
 
