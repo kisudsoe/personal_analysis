@@ -56,7 +56,7 @@ Fig 6. Monthly cost for ≥384 GiB memory with multiple instances by cloud compu
 
 
 
-As the result, CPU and Memory showed different cost-effective instances such as A1 for CPU and R6G for memory. For example, if I set up 16 a1.4xlarge instances clustered with the Apache Spark system, I can use 96 vCPUs and 512 MiB memoires which is larger than the single m5a.24xlarge instance as well as 59% (\$1,250) cost reduction (See details at [AWS A1](https://aws.amazon.com/ec2/instance-types/a1/?nc1=h_ls)). In the same sense, I can save the monthly cost by choosing r6g.16xlarge instance for bigger memory.
+As the result, CPU and Memory showed different cost-effective instances such as A1 for CPU and R6G for memory. For example, if I set up 16 a1.4xlarge instances clustered with the Apache Spark system, I can use 96 vCPUs and 512 MiB memoires which is 33% larger than the single m5a.24xlarge instance with 59% (\$1,250) cost reduction (See details at [AWS A1](https://aws.amazon.com/ec2/instance-types/a1/?nc1=h_ls)). In the same sense, I can save the monthly cost by choosing multiple instances of r6g.16xlarge as computing cluster for bigger memory.
 
 
 
