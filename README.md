@@ -18,11 +18,11 @@ To evaluate cost-effectiveness of the current M5A service, I calculated monthly 
 
 ![](figs/Fig1.png)
 
-Fig 1.
+Fig 1. Monthly cost per vCPU
 
 ![](figs/Fig2.png)
 
-Fig 2.
+Fig 2. Monthly cost per 4 MiB memory
 
 
 
@@ -30,7 +30,7 @@ Although current M5A service ranked at 8th in CPU and 16th in Memory, I found M6
 
 ![](figs/Fig3.png)
 
-Fig 3.
+Fig 3. Monthly expected cost for 96 vCPUs
 
 
 
@@ -38,7 +38,7 @@ As the result, every instances of M6G are >10% (\$3.35) cheaper than those of M5
 
 ![](figs/Fig4.png)
 
-Fig 4.
+Fig 4. Monthly cost of 64 vCPUs and 256 MiB memory
 
 
 
@@ -48,11 +48,11 @@ Apache Spark is the popular service to support cloud computing. I assumed that I
 
 ![](figs/Fig5.png)
 
-Fig 5.
+Fig 5. Monthly cost for ≥96 vCPUs with multiple instances by cloud computing
 
 ![](figs/Fig6.png)
 
-Fig 6.
+Fig 6. Monthly cost for ≥384 GiB memory with multiple instances by cloud computing
 
 
 
