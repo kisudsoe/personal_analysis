@@ -44,19 +44,19 @@ Fig 4. Monthly cost of 64 vCPUs and 256 MiB memory
 
 # 3. Cloud computing with A1 is more cost-effective than single instance of M5A
 
-Apache Spark is the popular service to support cloud computing. I assumed that I can use the Apache Spark for work instead of HPC. Then I calculated how much I can save for the monthly expected cost. For comparison, I set the criteria as the cost of the m5a.24xlarge HPC which serves 96 vCPUs and 384 GiB memory. The monthly expected costs of instances are calculated from the multiplication of constant number for equal or over the criteria CPU and memory capacities (**Fig 5 and 6**).
+Apache Spark is the popular service to support cloud computing. I assumed that I can use the Apache Spark for work instead of HPC. Then I calculated how much I can save for the monthly expected cost. For comparison, I set the criteria as the cost of the m5a.24xlarge HPC which serves 96 vCPUs and 384 GiB memory. The monthly expected costs of instances are calculated from the multiplication of constant number for equal or over the criteria CPU capacities (**Fig 5**).
 
 ![](figs/Fig5.png)
 
 Fig 5. Monthly cost for ≥96 vCPUs with multiple instances by cloud computing
 
+
+
+As the result, CPU and Memory showed different cost-effective instances such as A1 for CPU and R6G for memory. In case of T1 service, since it is for free tier, I will not discuss about it here. For example, if I set up 16 a1.4xlarge instances clustered with the Apache Spark system, I can use 96 vCPUs and 512 MiB memoires which is 33% larger with 59% (-\$1,250) cost reduction than the single m5a.24xlarge instance (See details at [AWS A1](https://aws.amazon.com/ec2/instance-types/a1/?nc1=h_ls)). Additionally, you can save 27% (-\$671) of the monthly cost by choosing a instance of r6g.16xlarge for bigger memory than the m5a.24xlarge (**Fig 6**).
+
 ![](figs/Fig6.png)
 
 Fig 6. Monthly cost for ≥384 GiB memory with multiple instances by cloud computing
-
-
-
-As the result, CPU and Memory showed different cost-effective instances such as A1 for CPU and R6G for memory. In case of T1 service, since it is for free tier, I will not discuss about it here. For example, if I set up 16 a1.4xlarge instances clustered with the Apache Spark system, I can use 96 vCPUs and 512 MiB memoires which is 33% larger with 59% (-\$1,250) cost reduction than the single m5a.24xlarge instance (See details at [AWS A1](https://aws.amazon.com/ec2/instance-types/a1/?nc1=h_ls)). Additionally, you can save 27% (-\$671) of the monthly cost by choosing a instance of r6g.16xlarge for bigger memory than the m5a.24xlarge.
 
 
 
