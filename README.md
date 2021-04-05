@@ -26,7 +26,7 @@ Fig 2. Monthly cost per 4 MiB memory
 
 
 
-Although current M5A service ranked at 8th in CPU and 16th in Memory, I found M6G service is cheaper than M5A for both CPU and memory in use for general purpose which has \$28.644 for both 1 vCPU and 4 MiB memory. For direct comparison between M5A and M6G, I compared all instance from the both services (**Fig 3**). The fact maximum capacity of M5A service is larger and the M6G have smaller instance means that the M5A and M6G services are targeting slightly differ. 
+Although current M5A service ranked at 8th in CPU and 16th in Memory, I found M6G service is cheaper than M5A for both CPU and memory in use for general purpose which has \$28.644 for both 1 vCPU and 4 MiB memory. For direct comparison between M5A and M6G, I compared all instance from the both services (**Fig 3**).
 
 ![](figs/Fig3.png)
 
@@ -34,7 +34,7 @@ Fig 3. Monthly expected cost for 96 vCPUs
 
 
 
-As the result, every instances of M6G are around 10% (-\$3.35) cheaper than those of M5A service (See details at [Amazon M6G](https://aws.amazon.com/ec2/instance-types/m6/?nc1=h_ls)). Additionally, direct comparison among the instances having 64 vCPUs and 256 MiB also shows M6G is the most cost-effective service (**Fig 4**).
+As the result, every instances of M6G are around 10% (-\$3.35) cheaper than those of M5A service (See details at [Amazon M6G](https://aws.amazon.com/ec2/instance-types/m6/?nc1=h_ls)). Additionally, direct comparison among the instances having 64 vCPUs and 256 MiB also shows M6G is the most cost-effective service (**Fig 4**). The fact maximum capacity of M5A service is larger and the M6G have smaller instance means that the M5A and M6G services are targeting slightly differ.
 
 ![](figs/Fig4.png)
 
