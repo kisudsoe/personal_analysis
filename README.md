@@ -30,7 +30,7 @@ Although current M5A service ranked at 8th in CPU and 16th in Memory, I found M6
 
 ![](figs/Fig3.png)
 
-Fig 3. Monthly expected cost for 96 vCPUs
+Fig 3. Monthly expected cost per vCPUs
 
 
 
