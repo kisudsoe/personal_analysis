@@ -42,7 +42,7 @@ Fig 4. Monthly cost of 64 vCPUs and 256 MiB memory
 
 
 
-# 3. Cloud computing is better choice for cost reduction than HPC
+# 3. Cloud computing with A1 or R6G is more cost-effective than single instance of M5A
 
 Apache Spark is the popular service to support cloud computing. I assumed that I can use the Apache Spark for work instead of HPC. Then I calculated how much I can save for the monthly expected cost. For comparison, I set the criteria as the cost of the m5a.24xlarge HPC which serves 96 vCPUs and 384 GiB memory. The monthly expected costs of instances are calculated from the multiplication of constant number for equal or over the criteria CPU and memory capacities (**Fig 5 and 6**).
 
