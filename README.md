@@ -8,7 +8,7 @@ Last update at 4/4/2021
 
 # 1. Too many services to choose in AWS EC2
 
-There are 352 instance APIs by in various options of CPUs, Memories, and GPUs in AWS EC2 (https://instances.vantage.sh/). In fact, I found 15 vCPU options, 45 memory options, and 5 GPU options. The instances categorized by the purpose of use in 59 services named as A1, C3, M5, etc. The services have hierarchical tree with specific variations such as M5, M5A, M5AD, M5D, M5DN, M5N, and M5ZN. In my case, I has been used instances in M5A services which is for general purpose (both CPU and memory).
+There are 352 instance APIs by in various options of CPUs, Memories, and GPUs in AWS EC2 (https://instances.vantage.sh/). Those are combinations of 15 vCPU options, 45 memory options, 5 GPU options, etc. The instances categorized by the purpose of use in 59 different services named as A1, C3, M5, etc. The services have sub-services with variations such as M5, M5A, M5AD, M5D, M5DN, M5N, and M5ZN. In my case, I usually has been used instances in M5A services which are for general purpose (both CPU and memory).
 
 
 
