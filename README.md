@@ -64,3 +64,9 @@ Fig 6. Monthly cost for ≥384 GiB memory with multiple instances by cloud compu
 
 In this article, I compared 352 AWS EC2 instances to find the most cost-effective service. As the result, I found M6G is better than M5A service in general use (e.g., HPC) as well as A1 for CPU and R6G for memory capacity. This result is highly useful for reducing the future costs of AWS EC2.
 
+
+
+# Useful information
+
+* [C5a benchmark: Performance/Price, Jun 2020](https://blog.cloud-mercato.com/new-c5a-benchmark-performance-price/)
+
